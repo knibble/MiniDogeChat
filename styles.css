@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#messageContainer {
+  width: 80%;
+  max-width: 1200px;
+}
+
+#messageContainer div {
+  background-color: yellow;
+  padding: 5px;
+}
+
+#messageContainer div:nth-child(2n) {
+  background-color: #fefefe;
+}
+
+#sendContainer {
+  display: flex;
+  position: fixed;
+  padding-bottom: 30px;
+  bottom: 0;
+  background-color: white;
+  max-width: 1200px;
+  width: 80%;
+}
+
+#inputMessage {
+  flex-grow: 1;
+}
